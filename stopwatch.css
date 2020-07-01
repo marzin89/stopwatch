@@ -1,0 +1,42 @@
+#stopwatch {
+    position: absolute;
+    left: 40%;
+    top: 40%;
+}
+input {
+    -moz-appearance: textfield;
+    font-size: 75px;
+    width: 100px;
+    border:hidden;
+}
+#start-continue-btn, #stop-btn, #reset-btn {
+    font-size: large;
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
+    margin-top: 20px;
+    border-radius: 2.5px;
+}
+#stop-btn, #reset-btn {
+    width: 130px;
+}
+#start-continue-btn:enabled {
+    background-color: green;
+    border-color: green;
+    color: white;
+}
+#stop-btn:enabled {
+    background-color: red;
+    border-color: red;
+    color: white;
+}
+#reset-btn:enabled {
+    background-color: blue;
+    border-color: blue;
+    color: white;
+}
+#start-continue-btn:disabled, #stop-btn:disabled, #reset-btn:disabled {
+    background-color: gray;
+    border-color: gray;
+    color: black;
+}
+

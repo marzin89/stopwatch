@@ -1,1 +1,1 @@
-# stopwatch
+A basic stopwatch, maybe I'll add a timer function eventually.# stopwatch
